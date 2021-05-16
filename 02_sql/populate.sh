@@ -2,7 +2,7 @@ if [ "$#" -ne 1 ]; then
     echo "Usage: ./populate_table.sh  bucket-name"
     exit
 fi
-
+*
 BUCKET=$1
 echo "Populating Cloud SQL instance chess from gs://${BUCKET}/lichess/..."
 

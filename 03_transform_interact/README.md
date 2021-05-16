@@ -5,7 +5,7 @@ The objective is transform UTCDate to separate day month year to each column and
 ### Interactive data exploration
 * Run the script to Create a dataset in BigQuery and load data into BigQuery
 
-      cd chess/03_transform
+      cd chess/03_transform_interact
       bash load_to_bq.sh <BUCKET-NAME>
 
 ### Data transformation

@@ -4,7 +4,7 @@ use lichess;
 drop table if exists chess_games;
 
 create table chess_games(
-    EVENTS VARCHAR(100) NOT NULL,*
+    EVENTS VARCHAR(100) NOT NULL,
     WHITE VARCHAR(100),
     BLACK VARCHAR(100),
     RESULT VARCHAR(10),

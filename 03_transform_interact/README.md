@@ -16,7 +16,7 @@ The objective is transform UTCDate to separate day month year to each column and
 * Go to big query to check new table as "tran_chess_games"
 * Visit the BigQuery console to query the new table
 
-      SELECT * FROM `<bucket-id>.lichess.trans_chess_games`
+      SELECT * FROM lichess.trans_chess_games LIMIT 1000
 
 * Save the results as a table named lichess
 * Start up a Cloud AI Platforms Notebook instance.

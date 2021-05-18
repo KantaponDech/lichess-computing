@@ -21,3 +21,4 @@ The objective is transform UTCDate to separate day month year to each column and
 * Save the results as a table named lichess
 * Start up a Cloud AI Platforms Notebook instance.
 * Start a new notebook. Then, copy and paste cells from lichess_pred.ipynb and click Run to execute the code.
+* Note that testhypo.sql use for query to test basic hypothesis
